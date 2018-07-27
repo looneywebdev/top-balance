@@ -7,20 +7,6 @@ function getBalance() {
     });
 }
 
-// const targetUrl="http%3A%2F%2Flocalhost%3A8080"
-
-// $.ajax({
-//     type:"GET",
-//     url: targetUrl,
-//     crossDomain: true,
-//     success: function (data) {
-//         ('.results').html(data);
-//         console.log(data);
-//     }
-// });
-
-//listen for submit and then place the initial value in "results" or do the math and get the new value
-
 
 function listen() {
     console.log("Listen");
@@ -39,10 +25,6 @@ function listen() {
                 console.log(balance);
             }
         })
-        // $.put(`/top-balance/${queryTarget}`, function(balance) {
-        //     $('.result').text(balance.Balance);
-        //     console.log(balance);
-        // });
     });
 }
 
